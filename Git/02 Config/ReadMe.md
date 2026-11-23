@@ -62,6 +62,21 @@ What I use packages are &mdash;
     git config --global --edit
 ```
 
+## SSH Keygen Creaction &mdash;
+
+```sh
+    ssh-keygen -t rsa -b 4096
+
+    # Testing SSH Connection
+    ssh -T git@github.com
+```
+
+1. Go to Setting
+2. Find id_rsa_pub file, open and copy all key
+3. SSH and GPT keys
+4. New SSH Key
+5. put keyand save it
+
 <!-- TODO: Add last video link -->
 
 📫 Reach me out!
